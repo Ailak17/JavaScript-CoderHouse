@@ -19,42 +19,7 @@ class Producto {
         this.precio = precio;
     }
 }
-let stock = [/* {
-        id: 1,
-        nombre: "Levi Ackerman",
-        imagen: "src=../fotos/levi.jpg" ,
-        detalle: "Bordado a mano de 12cm, con iman ideal para colgar en la heladera",
-        precio: 500
-    },
-    {
-        id: 2,
-        nombre: "Best Fiends Forever" ,
-        imagen: "src=../fotos/friends.jpg" ,
-        detalle: "Bordado a mano de 10cm, con iman ideal para colgar en la heladera" ,
-        precio: 400
-    },
-    {
-        id: 3,
-        nombre: "Harry Styles",
-        imagen: "src=../fotos/harry.jpg",
-        detalle: "Bordado a mano de 8cm, con iman ideal para colgar en la heladera",
-        precio: 300
-    },
-    {
-        id: 4,
-        nombre: "Alas de la Libertad",
-        imagen: "src=../fotos/legion.jpg",
-        detalle: "Bordado a mano de 10cm, con iman ideal para colgar en la heladera",
-        precio: 400
-    },
-    {
-        id: 5,
-        nombre: "Souvenirs",
-        imagen: "src=../fotos/cata.jpg",
-        detalle: "Bordado a mano de 8cm, con iman ideal para colgar en la heladera",
-        precio: 300
-    } */
-];
+let stock = [];
 
 async function bordadosJson(){
     return(await fetch("/data.json")).json();
@@ -88,7 +53,7 @@ function mostrarStock() {
                   <button 
                       class="btn btn-primary botonDiv" 
                       data-id=${stock[i].id}
-                      data-nombre=${stock[i].nombre.replaceAll(" ", "_")} // Reemplazamos los espacios en blanco para evitar errores
+                      data-nombre=${stock[i].nombre.replaceAll(" ", "_")} 
                       data-precio=${stock[i].precio} 
                       onclick="agregarProducto(event)"
                   >Comprar</button>
