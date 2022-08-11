@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<link rel="stylesheet" href="../estilo.css">
+    <title>Sofi Bordando</title> 
+</head>
+<body>
+    <header>
+        <div >
+            <img src="../fotos/123.gif" alt="" class="logo">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li> <a href="paginadebordados.html">Inicio</a></li>
+                <li> <a href="IniciodeSesion.html">Iniciar Sesión / Registrate</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="imgPS p-3"><img src="./fotos/Productos en Stock.jpg" alt=""></div>
+        <div class="row" id="stock"></div>
+        <hr>
+        <h3 class=" carritoH3">Carrito </h3>
+        <h5 class="carritoh5">Total de su compra:</h5>
+        <div class="carritoh5" id="total">$ 0</div>
+        <button class="btn btn-danger m-3" onclick="vaciarCarrito()" id="btnVaciar">Vaciar</button>
+        <div class="row" id="carrito" ></div>
+        
+    </div>
+    <script src="paginadebordados.js"></script>
+</body>
+</html>
