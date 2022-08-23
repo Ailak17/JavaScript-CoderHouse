@@ -9,6 +9,16 @@ Swal.fire({
     }
   })
 
+function cambiari(a) {
+    document.getElementById("cambio").innerHTML = `Hola ${a}`;
+}
+function chequearlocarl(){
+    if (localStorage.getItem("user")) {
+        let a = localStorage.getItem('user').replaceAll('"', " ")
+        cambiari(a);
+    }
+}
+chequearlocarl()
 
 class Producto {
     constructor(id, nombre, imagen, detalle, precio) {
