@@ -1,7 +1,7 @@
 [
-    { "id": 1 , "nombre": "Levi Ackerman" , "imagen": "src=../fotos/levi.jpg" , "detalle": "Bordado a mano de 12cm, con iman ideal para colgar en la heladera", "precio": 1500 },
+    { "id": 1 , "nombre": "Levi Ackerman" , "imagen": "src=../fotos/levi.jpg" , "detalle": "Bordado a mano de 12cm, con iman ideal para colgar en la heladera", "precio": 500 },
     { "id": 2 , "nombre": "Best Friends Forever", "imagen": "src=../fotos/friends.jpg" ,"detalle": "Bordado a mano de 10cm, con iman ideal para colgar en la heladera", "precio": 400  },
-    { "id": 3 , "nombre": "Harry Styles" , "imagen": "src=../fotos/harry.jpg" , "detalle": "Bordado a mano de 10cm, con iman ideal para colgar en la heladera", "precio": 1500 },
+    { "id": 3 , "nombre": "Harry Styles" , "imagen": "src=../fotos/harry.jpg" , "detalle": "Bordado a mano de 10cm, con iman ideal para colgar en la heladera", "precio": 400 },
     { "id": 4 , "nombre": "Alas de la Libertad" , "imagen": "src=../fotos/legion.jpg" , "detalle": "Bordado a mano de 10cm, con iman ideal para colgar en la heladera", "precio": 400 },
     { "id": 5 , "nombre": "Souvenirs" , "imagen": "src=../fotos/legion.jpg" , "detalle": "Bordado a mano de 8cm, con iman ideal para colgar en la heladera, consultanos precio por cantidad", "precio": 300}
 ]
