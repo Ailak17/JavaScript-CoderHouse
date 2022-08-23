@@ -9,12 +9,15 @@ function guardarlocal(){
     }
     console.log(localStorage);
 }
-
-
 function cambiar() {
-    document.getElementById("forms").innerHTML = "<h1>Registro exitoso! Inicia sesion para continuar ";
+    document.getElementById("forms").innerHTML = "<h1>Registro exitoso! Continua con tu compra!</h1> " ;
 }
+
 document.getElementById("boton").onclick = function (){
     guardarlocal()
     cambiar();
+    setTimeout(() => {
+        window.location = "./paginadebordados.html"
+    },2000)
+    
 } ;
